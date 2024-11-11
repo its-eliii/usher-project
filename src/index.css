@@ -1,0 +1,12 @@
+html, body {
+  height: 100%;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+#root {
+  height: 100%; /* Make the root element full height */
+  width: 100%; /* Make the root element full width */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack children vertically */
+}
